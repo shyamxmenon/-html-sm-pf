@@ -16,18 +16,18 @@
     display: flex;
     }
     #experience,
-    • experience-details-container {
+    .experience-details-container {
          margin-top: 2rem;
     }
     #profile,
-    •section-container {
+    .section-container {
          display: block;
     }
-    • arrow {
+    .arrow {
         display: none;
     }
     section,
-    •section-container {
+    .section-container {
          height: fit-content;
     }
     section {
@@ -39,7 +39,7 @@
          margin: 0 auto 2rem;
     }
     .about-containers {
- margin-top: 0;
+        margin-top: 0;
     }
 }
 
@@ -60,9 +60,9 @@ height: fit-content;
  margin-bottom: 2rem;
 }
 .about-containers,
-.contact- info-upper-container,
+.contact-info-upper-container,
 .btn-container {
-     flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .contact-info-container {
     margin: 0;

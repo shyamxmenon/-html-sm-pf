@@ -172,7 +172,7 @@ section {
     display: flex;
     height: 400px;
     width: 400px;
-    max-resolution: auto 0;
+    margin: auto 0;
 }
 
 .section__text {
@@ -210,6 +210,11 @@ section {
  .icon {
     cursor: pointer;
     height: 2rem;
+ }
+
+ .mailicon {
+    cursor: pointer;
+    height: 2.5rem;
  }
 
  /* BUTTONS */
@@ -343,7 +348,7 @@ section {
 
 article {
     display: flex;
-    width: 10rem;
+    width: 10.5rem;
     justify-content: space-around;
     gap: 0.5rem;
 }
